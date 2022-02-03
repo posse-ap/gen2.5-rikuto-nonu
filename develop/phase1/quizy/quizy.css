@@ -30,3 +30,21 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+.answerBox1 {
+    display: none;
+    background-color: thistle;
+}
+
+.answerP {
+    border-bottom: solid 3px blue;
+    width: fit-content;
+}
+
+.image {
+    margin: 5px 0;
+}
+
+.target {
+    pointer-events: none;
+}

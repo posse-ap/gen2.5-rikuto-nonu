@@ -31,7 +31,12 @@ li {
     margin-right: auto;
 }
 
-.answerBox1 {
+.answerBox {
+    display: none;
+    background-color: thistle;
+}
+
+.inanswerBox {
     display: none;
     background-color: thistle;
 }
@@ -41,10 +46,25 @@ li {
     width: fit-content;
 }
 
+.inanswerP {
+    border-bottom: solid 3px red;
+    width: fit-content;
+}
+
 .image {
     margin: 5px 0;
 }
 
 .target {
     pointer-events: none;
+}
+
+.changeRED {
+    background-color: red;
+    color: white;
+}
+
+.changeBLUE {
+    background-color: blue;
+    color: white;
 }

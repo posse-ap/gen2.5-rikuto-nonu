@@ -61,7 +61,8 @@ choices.forEach(function(choice, index) {
     
         <div id="answerBox${index+1}" class="answerBox">
         <p id="answerP${index+1}" class="answerP"></p>
-        <p id="answerExplanation${index+1}" class="answerExplanation" window.scrollby>正解は${choices[index][response]}です。 </p> 
+        <p id="answerExplanation${index+1}" class="answerExplanation" window.scrollby
+        >正解は${choices[index][response]}です。 </p> 
         </div>
         `
 

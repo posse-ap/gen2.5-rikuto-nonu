@@ -1,0 +1,592 @@
+/*ここからヘッダー*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+
+/* .all { */
+
+
+/* width: 1366x;
+    height: 802px; */
+
+
+/* background-color: whitesmoke;
+    width: 100%;
+    height: 100%; */
+
+
+/* } */
+
+.header {
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 64px;
+    width: 100%;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    /* margin-left: 40px; */
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerDate {
+    margin-left: 30px;
+    color: silver;
+}
+
+.recordPush {
+    padding: 10px;
+    width: 165px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+    background: linear-gradient(to right, royalblue, lightskyblue);
+    border: 0px none;
+}
+
+img {
+    height: 30px;
+    width: auto;
+}
+
+
+/* ここからメイン入る*/
+
+.conteinerBOX {
+    /* gap: 20px; */
+    background: whitesmoke;
+    width: 100%;
+    height: 80%;
+    /* height: 738px; */
+    /* margin-left: 200px; */
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+.main-total {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.main-total li {
+    list-style: none;
+}
+
+.mainRight {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    /* padding-bottom: 30px; */
+    margin-left: 20px;
+}
+
+.mainLeft,
+.mainRight {
+    width: 40%;
+    height: 700px;
+}
+
+.total-perday,
+.total-permon,
+.total-forever {
+    border: solid 1px;
+    height: 150px;
+    width: 65%;
+    /* margin-top: 20px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    border: 0px none;
+}
+
+.perday-today,
+.permon-month,
+.forever-month {
+    color: blueviolet;
+}
+
+.perday-number,
+.permon-number,
+.forever-number {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.perday-hour,
+.permon-hour,
+.forever-hour {
+    color: silver;
+}
+
+.total-permon {
+    margin-left: 20px;
+}
+
+.total-forever {
+    margin-left: 20px;
+}
+
+
+/*棒グラフ入る*/
+
+.main-graph {
+    padding-top: 0px;
+    /* margin-top: 20px; */
+    background: white;
+    border-radius: 10px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*ここからメインの右サイドの円グラフ
+                                           */
+
+.languageCircle,
+.contentCircle {
+    border: 0px none;
+    background: white;
+    border-radius: 10px;
+    width: 47%;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.circletitle {
+    margin-left: 20px;
+}
+
+.lanuageKinds,
+.cotentKinds li {
+    list-style: none;
+}
+
+.JavaScript::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(3, 69, 236);
+    border-radius: 50px;
+}
+
+.CSS::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(15, 113, 189);
+    border-radius: 50px;
+}
+
+.PHP::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(28, 188, 222);
+    border-radius: 50px;
+}
+
+.HTML::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(60, 206, 254);
+    border-radius: 50px;
+}
+
+.Laravel::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(178, 158, 243);
+    border-radius: 50px;
+}
+
+.SQL::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(109, 70, 236);
+    border-radius: 50px;
+}
+
+.SHELL::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(74, 23, 239);
+    border-radius: 50px;
+}
+
+.ISBK::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(49, 5, 192);
+    border-radius: 50px;
+}
+
+.Dotinstall::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(3, 69, 236);
+    border-radius: 50px;
+}
+
+.Nyobi::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(15, 113, 189);
+    border-radius: 50px;
+}
+
+.POSSE-task::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(28, 188, 222);
+    border-radius: 50px;
+}
+
+
+/* .JavaScript::before {
+                                               content: '';
+                                               margin-left: 5px;
+                                               width: 12px;
+                                               height: 12px;
+                                               display: inline-block;
+                                               background-color: #1754EF;
+                                               border-radius: 50%;
+                                           } */
+
+
+/* .perday-today::before {
+                                               content: '';
+                                               margin-left: 5px;
+                                               width: 12px;
+                                               height: 12px;
+                                               display: inline-block;
+                                               background-color: #1754EF;
+                                               border-radius: 50%;
+                                            } */
+
+.footer-date {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 13%;
+}
+
+
+/*ここからモーダル*/
+
+.batsu {
+    font-size: 100%;
+    /*ボタンの大きさ*/
+    font-weight: bold;
+    border: 0px none;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 1.5em;
+    line-height: 1.5em;
+    cursor: pointer;
+    transition: .2s;
+    background-color: whitesmoke;
+    /* margin-left: 96%;
+    margin-top: 32px; */
+    position: relative;
+    top: 21px;
+    left: 93%;
+    /* display: fixed; */
+    /* transform: translate(3200%, 120%); */
+}
+
+.batsu:hover {
+    background: #333;
+    border-color: #333;
+    color: #FFF;
+}
+
+.modal {
+    display: inline-block;
+    display: block;
+    position: fixed;
+    z-index: 2;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    display: none;
+    /* background: #000; */
+}
+
+.modal_overlay {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+
+
+/*まずは一つ目モーダル*/
+
+.modal-studentContent-3Box,
+.modal-studyLlanguage-8Box {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-stuyContent-NyobiBox {
+    border: solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 25px;
+}
+
+.modal-studyTimec-free {
+    height: 5vw;
+    width: 20vw;
+    border-radius: 10px;
+    border: 0px none;
+    background-color: #EEEEEE;
+}
+
+.modal-twitterComment-free {
+    height: 14vw;
+    width: 20vw;
+    border-radius: 10px;
+    border: 0px none;
+    background-color: #EEEEEE;
+}
+
+.modalLeft {
+    margin-left: 56px;
+}
+
+.modalRight {
+    margin-left: 40px;
+    margin-right: 56px;
+}
+
+.modalRight,
+.modalLeft {
+    width: 50%;
+    height: 470px;
+}
+
+.modal-recordPosting-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 6px;
+    width: 40%;
+    height: 43px;
+    border-radius: 25px;
+    background: linear-gradient(to right, royalblue, lightskyblue);
+    border: 0px none;
+    margin-top: 0vw;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.modal-submit-button {
+    color: white;
+}
+
+.modalFirst {
+    display: none;
+    display: flex;
+    width: 100%;
+    /* position: relative; */
+    /* margin-left: 200px; */
+}
+
+.modal-completion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 2; */
+}
+
+.modal-completion-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-completion-sentence {
+    height: 60px;
+    display: table;
+    display: none;
+}
+
+.modal-completion i {
+    color: #BEE360;
+    font-size: 56px;
+    margin-left: 18px;
+}
+
+.awesome {
+    color: #BEE360;
+    font-size: 17px;
+}
+
+.text_record_post {
+    font-size: 20px;
+}
+
+
+/*ここからフッター*/
+
+.footer-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+/*ここからローディング*/
+
+.loader,
+.loader:before,
+.loader:after {
+    border-radius: 50%;
+}
+
+.loader {
+    color: #ffffff;
+    font-size: 11px;
+    text-indent: -99999em;
+    margin: 55px auto;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    box-shadow: inset 0 0 0 1em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    display: none;
+    margin-top: 25%;
+}
+
+.loader:before,
+.loader:after {
+    position: absolute;
+    content: '';
+}
+
+.loader:before {
+    width: 5.2em;
+    height: 10.2em;
+    background: #0dc5c1;
+    border-radius: 10.2em 0 0 10.2em;
+    top: -0.1em;
+    left: -0.1em;
+    -webkit-transform-origin: 5.1em 5.1em;
+    transform-origin: 5.1em 5.1em;
+    -webkit-animation: load2 2s infinite ease 1.5s;
+    animation: load2 2s infinite ease 1.5s;
+}
+
+.loader:after {
+    width: 5.2em;
+    height: 10.2em;
+    background: #0dc5c1;
+    border-radius: 0 10.2em 10.2em 0;
+    top: -0.1em;
+    left: 4.9em;
+    -webkit-transform-origin: 0.1em 5.1em;
+    transform-origin: 0.1em 5.1em;
+    -webkit-animation: load2 2s infinite ease;
+    animation: load2 2s infinite ease;
+}
+
+@-webkit-keyframes load2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
